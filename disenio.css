@@ -1,0 +1,92 @@
+body {
+  background-size: cover;
+  background-position: top; 
+}
+
+#titulo {
+  color: aliceblue;
+  font-family: 'Lucida Sans';
+  margin-left: 5%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  height: 1%;
+}
+
+#carousel-container {
+  border: solid 1px aliceblue;
+  background-color: #090646;
+  width: fit-content; 
+  align-items: center;
+  height: 604px;
+  overflow: hidden;
+  position: relative;
+  margin-top: 1%;
+  margin-left: 5%;
+  }
+
+  .carousel-item {
+    width: fit-content; 
+    height: fit-content;
+    background-color: #090646;
+   
+  }   
+  
+  .img-sld {
+    width: 320px;
+    height: 180px;
+  }
+    
+  p {
+    margin-top: -4px;
+    color: aliceblue;
+    font-size: 10px;
+    height: 3px;
+  }
+  
+  .carousel-item:last-child {
+    margin-bottom: 0;
+  }
+  
+  #cont-control {
+    margin-left: 5%;
+  }
+  .control-but {
+    margin-top: 3px;
+  }
+
+#cont-inputs {
+  
+  height: fit-content;
+  margin-top: 3px;
+  margin-left: 5%;
+  display: flex;
+  color: darkblue;
+}
+.labels {
+  background-color: aliceblue;
+  border: solid 1px black;
+  border-radius: 3px;
+  width: 80px;
+  height: 25px;
+  font-size: 10px;
+  text-align: center;
+ }
+
+.inputs {
+  background-color: aliceblue;
+  margin-left: 1px;
+  border: solid 1px black;
+  border-radius: 3px;
+  width: 47px;
+  height: 23px;
+}
+
+#bot-ajusta {
+  border: solid 1px black;
+  margin-left: 1px;
+  border-radius: 5px;
+  width: 60px;
+  background-color: rgb(114, 168, 114);
+  font-size: 10px;
+  color: aliceblue;
+}

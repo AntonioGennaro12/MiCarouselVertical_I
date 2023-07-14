@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="disenio.css">
+</head>
+<body>
+    <h3 id="titulo">*** Mi Carousel Vertical ***</h3>
+    <div id="carousel-container">
+        <div class="carousel-item">
+            <img class="img-sld" src="https://cdn.autoproyecto.com/wp-content/uploads/2021/08/2023-Nissan-Z-31.jpg" alt="">
+            <p class="floating-text">Slide#1</p>
+        </div>
+        <div class="carousel-item">
+            <img class="img-sld" src="https://cdn.autoproyecto.com/wp-content/uploads/2022/08/Nissan-Z-2023-1600-01.jpg" alt="">
+            <p class="floating-text">Slide#2</p>
+        </div>
+        <div class="carousel-item">
+            <img class="img-sld" src="https://img.freepik.com/fotos-premium/hermoso-auto-deportivo-desatando-emocion-poder-elegancia-autos-deportivos-ia-generativa_894903-4091.jpg?w=2000" alt="">
+            <p class="floating-text">Slide#3</p>
+        </div>
+        <div class="carousel-item">
+            <img class="img-sld" src="https://cdn.autoproyecto.com/wp-content/uploads/2023/07/Nissan-GT-R-2024-1600-02.jpg" alt="">
+            <p class="floating-text">Slide#4</p>
+        </div>
+        <div class="carousel-item">
+            <img class="img-sld" src="https://cdn.autoproyecto.com/wp-content/uploads/2021/08/2023-Nissan-Z-28.jpg" alt="">
+            <p class="floating-text">Slide#5</p>
+        </div>    
+        <div class="carousel-item">
+            <img class="img-sld" src="https://hips.hearstapps.com/hmg-prod/amv-prod-cad-assets/images/16q4/671590/2017-acura-nsx-supercar-full-test-review-car-and-driver-photo-671699-s-original.jpg?fill=16:9&resize=1200:*" alt="">
+            <p class="floating-text">Slide#6</p>
+        </div>
+        <div class="carousel-item">
+            <img class="img-sld" src="https://images.carexpert.com.au/resize/3000/-/app/uploads/2022/12/Audi-Q8-e-tron-HERO-16x9-1.jpg" alt="">
+            <p class="floating-text">Slide#7</p>
+        </div>
+        <div class="carousel-item">
+            <img class="img-sld" src="https://www.japantimes.co.jp/wp-content/uploads/2018/04/b-toyota-a-20180404.jpg" alt="">
+            <p class="floating-text">Slide#8</p>
+        </div>
+        <div class="carousel-item">
+            <img class="img-sld" src="https://cdn.autoproyecto.com/wp-content/uploads/2022/08/Nissan-Z-2023-1600-01.jpg" alt="">
+            <p class="floating-text">Slide#9</p>
+        </div>
+        <div class="carousel-item">
+            <img class="img-sld" src="https://media.gq.com.mx/photos/604458fef0cc2a1d8969755c/16:9/w_2560%2Cc_limit/10%2520autos%2520que%2520quieren%2520ser%2520el%2520mejor%2520de%25202021%2520-%2520BMW%25204-Series%25202021%2520(1).jpg" alt="">
+            <p class="floating-text">Slide#10</p>
+        </div>
+        <div class="carousel-item">
+            <img class="img-sld" src="https://cdn.autoproyecto.com/wp-content/uploads/2023/07/Nissan-GT-R-2024-1600-02.jpg" alt="">
+            <p class="floating-text">Slide#11</p>
+        </div>
+        <div class="carousel-item">
+            <img class="img-sld" src="https://media.ed.edmunds-media.com/acura/nsx/2017/oem/2017_acura_nsx_coupe_base_fq_oem_1_1600.jpg" alt="">
+            <p class="floating-text">Slide#12</p>
+        </div>
+        <div class="carousel-item">
+            <img class="img-sld" src="https://cdn.autoproyecto.com/wp-content/uploads/2023/07/Nissan-GT-R-2024-1600-02.jpg" alt="">
+            <p class="floating-text">Slide#13</p>
+        </div>
+        <div class="carousel-item">
+            <img class="img-sld" src="https://hondainamerica.com/wp-content/uploads/2017_Acura_NSX_1001___Cropped-scaled.jpg" alt="">
+            <p class="floating-text">Slide#14</p>
+        </div>
+    </div>
+    <div id="cont-control">
+        <button class="control-but" id="btn-up">▲</button>
+        <button class="control-but" id="btn-down">▼</button>
+        <button class="control-but" id="btn-cont">&#8734;</button>
+        <button class="control-but" id="btn-stop">&#9632;</button>
+    </div>   
+    <div id="cont-inputs">
+        <label class="labels" id="sld-vent">Nro de Slides en Ventana (Dflt: 3)</label>
+        <input class="inputs" id="nro-en-vent" type="number"> 
+        <label class="labels" id="alto-vent">Alto de Ventana [px] (Dflt: 600)</label>
+        <input class="inputs" id="alto-de-vent" type="number"> 
+        <button id= "bot-ajusta" onclick="ajustaCarousel()">Ajusta Carousel</button>
+    </div>  
+<script src="manejo.js"></script>
+</body>
+</html>
+
